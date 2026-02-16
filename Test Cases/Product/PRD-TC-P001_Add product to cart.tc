@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PRD-TC-P001_Add product to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8dcf546d-ea01-45ce-a640-bfdf0ada3ca8</testCaseGuid>
+</TestCaseEntity>

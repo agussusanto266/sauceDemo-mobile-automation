@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Mobile_SauceDemo_CoreFlow" time="170.423" tests="6" failures="0" errors="0">
+   <testsuite name="TS_Mobile_SauceDemo_CoreFlow" tests="6" failures="0" errors="0" time="170.423" skipped="0" timestamp="2026-02-09T03:20:16.516Z" hostname="aguss - Agus_Susanto" id="Test Suites/TS_Mobile_SauceDemo_CoreFlow">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 15)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="D:\\sauceDemo-mobile-automation-main\\sauceDemo-mobile-automation-main\\SauceDemo-Mobile-Automation\\Reports\\20260209_102013\\TS_Mobile_SauceDemo_CoreFlow\\20260209_102013"/>
+         <property name="logFiles" value="D:\\sauceDemo-mobile-automation-main\\sauceDemo-mobile-automation-main\\SauceDemo-Mobile-Automation\\Reports\\20260209_102013\\TS_Mobile_SauceDemo_CoreFlow\\20260209_102013\\appium.log, D:\\sauceDemo-mobile-automation-main\\sauceDemo-mobile-automation-main\\SauceDemo-Mobile-Automation\\Reports\\20260209_102013\\TS_Mobile_SauceDemo_CoreFlow\\20260209_102013\\appium_error.log, D:\\sauceDemo-mobile-automation-main\\sauceDemo-mobile-automation-main\\SauceDemo-Mobile-Automation\\Reports\\20260209_102013\\TS_Mobile_SauceDemo_CoreFlow\\20260209_102013\\console0.log, D:\\sauceDemo-mobile-automation-main\\sauceDemo-mobile-automation-main\\SauceDemo-Mobile-Automation\\Reports\\20260209_102013\\TS_Mobile_SauceDemo_CoreFlow\\20260209_102013\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aguss - Agus_Susanto"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="userFullName" value="Agus Susanto"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="projectName" value="SauceDemo-Mobile-Automation"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 15)"/>
+         <property name="deviceOSVersion" value="15"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/AUT-TC-P001_Success login" time="35.097" classname="Test Cases/Authentication/AUT-TC-P001_Success login" status="PASSED">
+         <system-out><![CDATA[09-02-2026T10:20:17 - [TEST_CASE][PASSED] - Test Cases/Authentication/AUT-TC-P001_Success login: Test Cases/Authentication/AUT-TC-P001_Success login
+
+09-02-2026T10:20:17 - [TEST_STEP][PASSED] - validUserName = userName: null
+
+09-02-2026T10:20:17 - [TEST_STEP][PASSED] - validPassword = password: null
+
+09-02-2026T10:20:17 - [TEST_STEP][PASSED] - startExistingApplication(appId): Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:20:17 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+09-02-2026T10:20:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-02-2026T10:20:28 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-02-2026T10:20:28 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aguss\.appium
+
+09-02-2026T10:20:28 - [MESSAGE][INFO] - appium outlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium.log
+
+09-02-2026T10:20:28 - [MESSAGE][INFO] - appium errlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium_error.log
+
+09-02-2026T10:20:31 - [MESSAGE][INFO] - Appium server started on port 50,765
+
+09-02-2026T10:20:38 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+09-02-2026T10:20:38 - [MESSAGE][PASSED] - Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:20:38 - [TEST_STEP][PASSED] - auth.Auth.login(validUserName, validPassword): auth.Auth.login is PASSED
+
+09-02-2026T10:20:41 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_username' is present
+
+09-02-2026T10:20:44 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_username'
+
+09-02-2026T10:20:45 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_password' is present
+
+09-02-2026T10:20:47 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_password'
+
+09-02-2026T10:20:48 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login' is present
+
+09-02-2026T10:20:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login'
+
+09-02-2026T10:20:48 - [MESSAGE][PASSED] - auth.Auth.login is PASSED
+
+09-02-2026T10:20:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Android/Product/Texts/txt_products"), "PRODUCTS"): Actual text and expected text of test object 'Object Repository/Mobile/Android/Product/Texts/txt_products' are matched.
+
+09-02-2026T10:20:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Android/Product/Texts/txt_products' are matched.
+
+09-02-2026T10:20:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile/Android/Product/Images/img_burger_menu"), 15): Element 'Object Repository/Mobile/Android/Product/Images/img_burger_menu' is present
+
+09-02-2026T10:20:50 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Images/img_burger_menu' is present
+
+09-02-2026T10:20:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile/Android/Product/Images/img_cart"), 15): Element 'Object Repository/Mobile/Android/Product/Images/img_cart' is present
+
+09-02-2026T10:20:51 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Images/img_cart' is present
+
+09-02-2026T10:20:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile/Android/Product/Lists/lst_products"), 15): Element 'Object Repository/Mobile/Android/Product/Lists/lst_products' is present
+
+09-02-2026T10:20:51 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Lists/lst_products' is present
+
+09-02-2026T10:20:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-02-2026T10:20:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/PRD-TC-P001_Add product to cart" time="20.96" classname="Test Cases/Product/PRD-TC-P001_Add product to cart" status="PASSED">
+         <system-out><![CDATA[09-02-2026T10:20:52 - [TEST_CASE][PASSED] - Test Cases/Product/PRD-TC-P001_Add product to cart: Test Cases/Product/PRD-TC-P001_Add product to cart
+
+09-02-2026T10:20:52 - [TEST_STEP][PASSED] - username = userName: null
+
+09-02-2026T10:20:52 - [TEST_STEP][PASSED] - password = password: null
+
+09-02-2026T10:20:52 - [TEST_STEP][PASSED] - startExistingApplication(appId, STOP_ON_FAILURE): Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:20:52 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+09-02-2026T10:20:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-02-2026T10:20:55 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-02-2026T10:20:55 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aguss\.appium
+
+09-02-2026T10:20:55 - [MESSAGE][INFO] - appium outlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium.log
+
+09-02-2026T10:20:55 - [MESSAGE][INFO] - appium errlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium_error.log
+
+09-02-2026T10:20:56 - [MESSAGE][INFO] - Appium server started on port 62,035
+
+09-02-2026T10:21:00 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+09-02-2026T10:21:00 - [MESSAGE][PASSED] - Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:21:00 - [TEST_STEP][PASSED] - auth.Auth.login(username, password): auth.Auth.login is PASSED
+
+09-02-2026T10:21:03 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_username' is present
+
+09-02-2026T10:21:05 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_username'
+
+09-02-2026T10:21:06 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_password' is present
+
+09-02-2026T10:21:08 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_password'
+
+09-02-2026T10:21:09 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login' is present
+
+09-02-2026T10:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login'
+
+09-02-2026T10:21:09 - [MESSAGE][PASSED] - auth.Auth.login is PASSED
+
+09-02-2026T10:21:09 - [TEST_STEP][PASSED] - product.Cart.addProductToCart(): product.Cart.addProductToCart is PASSED
+
+09-02-2026T10:21:11 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart' is present
+
+09-02-2026T10:21:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart'
+
+09-02-2026T10:21:11 - [MESSAGE][PASSED] - product.Cart.addProductToCart is PASSED
+
+09-02-2026T10:21:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Mobile/Android/Product/Actions/act_remove"), 15): Element 'Object Repository/Mobile/Android/Product/Actions/act_remove' is exist
+
+09-02-2026T10:21:12 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_remove' is exist
+
+09-02-2026T10:21:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-02-2026T10:21:13 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product/PRD-TC-P002_Remove product from cart" time="22.363" classname="Test Cases/Product/PRD-TC-P002_Remove product from cart" status="PASSED">
+         <system-out><![CDATA[09-02-2026T10:21:13 - [TEST_CASE][PASSED] - Test Cases/Product/PRD-TC-P002_Remove product from cart: Test Cases/Product/PRD-TC-P002_Remove product from cart
+
+09-02-2026T10:21:13 - [TEST_STEP][PASSED] - username = userName: null
+
+09-02-2026T10:21:13 - [TEST_STEP][PASSED] - password = password: null
+
+09-02-2026T10:21:13 - [TEST_STEP][PASSED] - startExistingApplication(appId, STOP_ON_FAILURE): Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:21:13 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+09-02-2026T10:21:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-02-2026T10:21:16 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-02-2026T10:21:16 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aguss\.appium
+
+09-02-2026T10:21:16 - [MESSAGE][INFO] - appium outlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium.log
+
+09-02-2026T10:21:16 - [MESSAGE][INFO] - appium errlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium_error.log
+
+09-02-2026T10:21:17 - [MESSAGE][INFO] - Appium server started on port 62,240
+
+09-02-2026T10:21:21 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+09-02-2026T10:21:21 - [MESSAGE][PASSED] - Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:21:21 - [TEST_STEP][PASSED] - auth.Auth.login(username, password): auth.Auth.login is PASSED
+
+09-02-2026T10:21:23 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_username' is present
+
+09-02-2026T10:21:26 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_username'
+
+09-02-2026T10:21:27 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_password' is present
+
+09-02-2026T10:21:29 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_password'
+
+09-02-2026T10:21:30 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login' is present
+
+09-02-2026T10:21:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login'
+
+09-02-2026T10:21:30 - [MESSAGE][PASSED] - auth.Auth.login is PASSED
+
+09-02-2026T10:21:30 - [TEST_STEP][PASSED] - product.Cart.addProductToCart(): product.Cart.addProductToCart is PASSED
+
+09-02-2026T10:21:32 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart' is present
+
+09-02-2026T10:21:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart'
+
+09-02-2026T10:21:32 - [MESSAGE][PASSED] - product.Cart.addProductToCart is PASSED
+
+09-02-2026T10:21:32 - [TEST_STEP][PASSED] - product.Cart.removeProductFromCart(): product.Cart.removeProductFromCart is PASSED
+
+09-02-2026T10:21:33 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_remove' is present
+
+09-02-2026T10:21:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Product/Actions/act_remove'
+
+09-02-2026T10:21:33 - [MESSAGE][PASSED] - product.Cart.removeProductFromCart is PASSED
+
+09-02-2026T10:21:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Mobile/Android/Product/Actions/act_add_to_cart"), 15): Element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart' is exist
+
+09-02-2026T10:21:34 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart' is exist
+
+09-02-2026T10:21:34 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-02-2026T10:21:35 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/CKT-TC-P001_Success checkout product" time="42.321" classname="Test Cases/Checkout/CKT-TC-P001_Success checkout product" status="PASSED">
+         <system-out><![CDATA[09-02-2026T10:21:35 - [TEST_CASE][PASSED] - Test Cases/Checkout/CKT-TC-P001_Success checkout product: Test Cases/Checkout/CKT-TC-P001_Success checkout product
+
+09-02-2026T10:21:35 - [TEST_STEP][PASSED] - username = userName: null
+
+09-02-2026T10:21:35 - [TEST_STEP][PASSED] - password = password: null
+
+09-02-2026T10:21:35 - [TEST_STEP][PASSED] - firstname = firstName: null
+
+09-02-2026T10:21:35 - [TEST_STEP][PASSED] - lastname = lastName: null
+
+09-02-2026T10:21:35 - [TEST_STEP][PASSED] - postalcode = postalcode: null
+
+09-02-2026T10:21:35 - [TEST_STEP][PASSED] - startExistingApplication(appId, STOP_ON_FAILURE): Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:21:35 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+09-02-2026T10:21:35 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-02-2026T10:21:43 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-02-2026T10:21:43 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aguss\.appium
+
+09-02-2026T10:21:43 - [MESSAGE][INFO] - appium outlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium.log
+
+09-02-2026T10:21:43 - [MESSAGE][INFO] - appium errlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium_error.log
+
+09-02-2026T10:21:45 - [MESSAGE][INFO] - Appium server started on port 62,432
+
+09-02-2026T10:21:49 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+09-02-2026T10:21:49 - [MESSAGE][PASSED] - Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:21:49 - [TEST_STEP][PASSED] - auth.Auth.login(username, password): auth.Auth.login is PASSED
+
+09-02-2026T10:21:51 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_username' is present
+
+09-02-2026T10:21:54 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_username'
+
+09-02-2026T10:21:54 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_password' is present
+
+09-02-2026T10:21:57 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_password'
+
+09-02-2026T10:21:57 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login' is present
+
+09-02-2026T10:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login'
+
+09-02-2026T10:21:58 - [MESSAGE][PASSED] - auth.Auth.login is PASSED
+
+09-02-2026T10:21:58 - [TEST_STEP][PASSED] - product.Cart.addProductToCart(): product.Cart.addProductToCart is PASSED
+
+09-02-2026T10:21:59 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart' is present
+
+09-02-2026T10:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Product/Actions/act_add_to_cart'
+
+09-02-2026T10:21:59 - [MESSAGE][PASSED] - product.Cart.addProductToCart is PASSED
+
+09-02-2026T10:21:59 - [TEST_STEP][PASSED] - product.Cart.openCart(): product.Cart.openCart is PASSED
+
+09-02-2026T10:22:00 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Product/Actions/act_cart' is present
+
+09-02-2026T10:22:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Product/Actions/act_cart'
+
+09-02-2026T10:22:01 - [MESSAGE][PASSED] - product.Cart.openCart is PASSED
+
+09-02-2026T10:22:01 - [TEST_STEP][PASSED] - checkout.Checkout.startCheckout(): checkout.Checkout.startCheckout is PASSED
+
+09-02-2026T10:22:01 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Cart/Actions/act_checkout' is present
+
+09-02-2026T10:22:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Cart/Actions/act_checkout'
+
+09-02-2026T10:22:02 - [MESSAGE][PASSED] - checkout.Checkout.startCheckout is PASSED
+
+09-02-2026T10:22:02 - [TEST_STEP][PASSED] - checkout.Checkout.fillInfromationAndContinueCheckout(firstname, lastname, postalcode): checkout.Checkout.fillInfromationAndContinueCheckout is PASSED
+
+09-02-2026T10:22:03 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Checkout/Fields/fld_first_name' is present
+
+09-02-2026T10:22:04 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Checkout/Fields/fld_last_name' is present
+
+09-02-2026T10:22:04 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Checkout/Fields/fld_postal_code' is present
+
+09-02-2026T10:22:07 - [MESSAGE][PASSED] - Text 'Agus' has been set to element 'Object Repository/Mobile/Android/Checkout/Texts/txt_first_name'
+
+09-02-2026T10:22:09 - [MESSAGE][PASSED] - Text 'Susanto' has been set to element 'Object Repository/Mobile/Android/Checkout/Texts/txt_last_name'
+
+09-02-2026T10:22:12 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Mobile/Android/Checkout/Texts/txt_postal_code'
+
+09-02-2026T10:22:13 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Checkout/Actions/act_continue' is present
+
+09-02-2026T10:22:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Checkout/Actions/act_continue'
+
+09-02-2026T10:22:13 - [MESSAGE][PASSED] - checkout.Checkout.fillInfromationAndContinueCheckout is PASSED
+
+09-02-2026T10:22:13 - [TEST_STEP][PASSED] - checkout.Checkout.finishCheckout(): checkout.Checkout.finishCheckout is PASSED
+
+09-02-2026T10:22:14 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Checkout/Actions/act_finish' is present
+
+09-02-2026T10:22:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Checkout/Actions/act_finish'
+
+09-02-2026T10:22:15 - [MESSAGE][PASSED] - checkout.Checkout.finishCheckout is PASSED
+
+09-02-2026T10:22:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile/Android/Checkout/Images/img_success_transaction"), 15): Element 'Object Repository/Mobile/Android/Checkout/Images/img_success_transaction' is present
+
+09-02-2026T10:22:15 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Checkout/Images/img_success_transaction' is present
+
+09-02-2026T10:22:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Android/Checkout/Texts/txt_checkout_complete"), "CHECKOUT: COMPLETE!"): Actual text and expected text of test object 'Object Repository/Mobile/Android/Checkout/Texts/txt_checkout_complete' are matched.
+
+09-02-2026T10:22:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Android/Checkout/Texts/txt_checkout_complete' are matched.
+
+09-02-2026T10:22:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Android/Checkout/Texts/txt_title_success_transaction"), "THANK YOU FOR YOU ORDER"): Actual text and expected text of test object 'Object Repository/Mobile/Android/Checkout/Texts/txt_title_success_transaction' are matched.
+
+09-02-2026T10:22:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Android/Checkout/Texts/txt_title_success_transaction' are matched.
+
+09-02-2026T10:22:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Android/Checkout/Texts/txt_desc_success_transaction"), "Your order has been dispatched, and will arrive just as fast as the pony can get there!"): Actual text and expected text of test object 'Object Repository/Mobile/Android/Checkout/Texts/txt_desc_success_transaction' are matched.
+
+09-02-2026T10:22:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Android/Checkout/Texts/txt_desc_success_transaction' are matched.
+
+09-02-2026T10:22:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-02-2026T10:22:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/AUT-TC-P002_Success logout" time="26.87" classname="Test Cases/Authentication/AUT-TC-P002_Success logout" status="PASSED">
+         <system-out><![CDATA[09-02-2026T10:22:17 - [TEST_CASE][PASSED] - Test Cases/Authentication/AUT-TC-P002_Success logout: Test Cases/Authentication/AUT-TC-P002_Success logout
+
+09-02-2026T10:22:17 - [TEST_STEP][PASSED] - validUserName = userName: null
+
+09-02-2026T10:22:17 - [TEST_STEP][PASSED] - validPassword = password: null
+
+09-02-2026T10:22:17 - [TEST_STEP][PASSED] - startExistingApplication(appId): Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:22:17 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+09-02-2026T10:22:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-02-2026T10:22:23 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-02-2026T10:22:23 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aguss\.appium
+
+09-02-2026T10:22:23 - [MESSAGE][INFO] - appium outlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium.log
+
+09-02-2026T10:22:23 - [MESSAGE][INFO] - appium errlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium_error.log
+
+09-02-2026T10:22:25 - [MESSAGE][INFO] - Appium server started on port 62,640
+
+09-02-2026T10:22:28 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+09-02-2026T10:22:29 - [MESSAGE][PASSED] - Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:22:29 - [TEST_STEP][PASSED] - auth.Auth.login(validUserName, validPassword): auth.Auth.login is PASSED
+
+09-02-2026T10:22:31 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_username' is present
+
+09-02-2026T10:22:34 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_username'
+
+09-02-2026T10:22:34 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_password' is present
+
+09-02-2026T10:22:37 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_password'
+
+09-02-2026T10:22:37 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login' is present
+
+09-02-2026T10:22:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login'
+
+09-02-2026T10:22:38 - [MESSAGE][PASSED] - auth.Auth.login is PASSED
+
+09-02-2026T10:22:38 - [TEST_STEP][PASSED] - auth.Logout.logout(): auth.Logout.logout is PASSED
+
+09-02-2026T10:22:39 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Logout/Actions/act_burger_menu' is present
+
+09-02-2026T10:22:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Logout/Actions/act_burger_menu'
+
+09-02-2026T10:22:41 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Logout/Actions/act_logout' is present
+
+09-02-2026T10:22:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Logout/Actions/act_logout'
+
+09-02-2026T10:22:41 - [MESSAGE][PASSED] - auth.Logout.logout is PASSED
+
+09-02-2026T10:22:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile/Android/Authentication/Login/Texts/txt_login"), 15): Element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_login' is present
+
+09-02-2026T10:22:43 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_login' is present
+
+09-02-2026T10:22:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Android/Authentication/Login/Texts/txt_login"), "LOGIN"): Actual text and expected text of test object 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_login' are matched.
+
+09-02-2026T10:22:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_login' are matched.
+
+09-02-2026T10:22:44 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-02-2026T10:22:44 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential" time="22.304" classname="Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential" status="PASSED">
+         <system-out><![CDATA[09-02-2026T10:22:44 - [TEST_CASE][PASSED] - Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential: Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential
+
+09-02-2026T10:22:44 - [TEST_STEP][PASSED] - lockedUserName = lockedOutUserName: null
+
+09-02-2026T10:22:44 - [TEST_STEP][PASSED] - password = password: null
+
+09-02-2026T10:22:44 - [TEST_STEP][PASSED] - startExistingApplication(appId, STOP_ON_FAILURE): Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:22:44 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+09-02-2026T10:22:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-02-2026T10:22:50 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-02-2026T10:22:50 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aguss\.appium
+
+09-02-2026T10:22:50 - [MESSAGE][INFO] - appium outlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium.log
+
+09-02-2026T10:22:50 - [MESSAGE][INFO] - appium errlog: D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\Reports\20260209_102013\TS_Mobile_SauceDemo_CoreFlow\20260209_102013\appium_error.log
+
+09-02-2026T10:22:52 - [MESSAGE][INFO] - Appium server started on port 62,831
+
+09-02-2026T10:22:55 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+09-02-2026T10:22:56 - [MESSAGE][PASSED] - Starting application with Id: 'com.swaglabsmobileapp'
+
+09-02-2026T10:22:56 - [TEST_STEP][PASSED] - auth.Auth.loginUseLockedCred(lockedUserName, password): auth.Auth.loginUseLockedCred is PASSED
+
+09-02-2026T10:22:58 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_username' is present
+
+09-02-2026T10:23:01 - [MESSAGE][PASSED] - Text 'locked_out_user' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_username'
+
+09-02-2026T10:23:02 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Fields/fld_password' is present
+
+09-02-2026T10:23:04 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_password'
+
+09-02-2026T10:23:05 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login' is present
+
+09-02-2026T10:23:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Android/Authentication/Login/Actions/act_login'
+
+09-02-2026T10:23:05 - [MESSAGE][PASSED] - auth.Auth.loginUseLockedCred is PASSED
+
+09-02-2026T10:23:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Android/Authentication/Login/Texts/txt_locked_user"), "Sorry, this user has been locked out."): Actual text and expected text of test object 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_locked_user' are matched.
+
+09-02-2026T10:23:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Android/Authentication/Login/Texts/txt_locked_user' are matched.
+
+09-02-2026T10:23:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-02-2026T10:23:06 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-02-2026T10:20:16 - [TEST_SUITE][PASSED] - TS_Mobile_SauceDemo_CoreFlow: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

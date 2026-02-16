@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CKT-TC-P001_Success checkout product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63175c7e-7469-4e6b-9f02-1775c150370c</testCaseGuid>
+</TestCaseEntity>

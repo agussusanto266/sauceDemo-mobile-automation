@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Authentication/AUT-TC-P001_Success login","testCaseId":"Test Cases/Authentication/AUT-TC-P001_Success login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Product/PRD-TC-P001_Add product to cart","testCaseId":"Test Cases/Product/PRD-TC-P001_Add product to cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Product/PRD-TC-P002_Remove product from cart","testCaseId":"Test Cases/Product/PRD-TC-P002_Remove product from cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/CKT-TC-P001_Success checkout product","testCaseId":"Test Cases/Checkout/CKT-TC-P001_Success checkout product","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentication/AUT-TC-P002_Success logout","testCaseId":"Test Cases/Authentication/AUT-TC-P002_Success logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential","testCaseId":"Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential","iterationVariableName":""}

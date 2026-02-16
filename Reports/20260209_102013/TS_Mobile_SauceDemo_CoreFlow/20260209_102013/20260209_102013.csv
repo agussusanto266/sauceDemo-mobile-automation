@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Mobile_SauceDemo_CoreFlow,,,,09-02-2026 10:20:16,09-02-2026 10:23:06,2m - 50.431s,PASSED
+,,,,,,,
+Test Cases/Authentication/AUT-TC-P001_Success login,,,,09-02-2026 10:20:17,09-02-2026 10:20:52,35.097s,PASSED
+validUserName = userName,,,,09-02-2026 10:20:17,09-02-2026 10:20:17,0.163s,PASSED
+validPassword = password,,,,09-02-2026 10:20:17,09-02-2026 10:20:17,0.003s,PASSED
+startExistingApplication(appId),,,,09-02-2026 10:20:17,09-02-2026 10:20:38,20.751s,PASSED
+"auth.Auth.login(validUserName, validPassword)",,,,09-02-2026 10:20:38,09-02-2026 10:20:48,10.636s,PASSED
+"verifyElementText(findTestObject(""Mobile/Android/Product/Texts/txt_products""), ""PRODUCTS"")",,,,09-02-2026 10:20:48,09-02-2026 10:20:50,1.441s,PASSED
+"waitForElementPresent(findTestObject(""Mobile/Android/Product/Images/img_burger_menu""), 15)",,,,09-02-2026 10:20:50,09-02-2026 10:20:50,0.358s,PASSED
+"waitForElementPresent(findTestObject(""Mobile/Android/Product/Images/img_cart""), 15)",,,,09-02-2026 10:20:50,09-02-2026 10:20:51,0.469s,PASSED
+"waitForElementPresent(findTestObject(""Mobile/Android/Product/Lists/lst_products""), 15)",,,,09-02-2026 10:20:51,09-02-2026 10:20:51,0.359s,PASSED
+closeApplication(),,,,09-02-2026 10:20:51,09-02-2026 10:20:52,0.483s,PASSED
+,,,,,,,
+Test Cases/Product/PRD-TC-P001_Add product to cart,,,,09-02-2026 10:20:52,09-02-2026 10:21:13,20.960s,PASSED
+username = userName,,,,09-02-2026 10:20:52,09-02-2026 10:20:52,0.004s,PASSED
+password = password,,,,09-02-2026 10:20:52,09-02-2026 10:20:52,0.005s,PASSED
+"startExistingApplication(appId, STOP_ON_FAILURE)",,,,09-02-2026 10:20:52,09-02-2026 10:21:00,8.596s,PASSED
+"auth.Auth.login(username, password)",,,,09-02-2026 10:21:00,09-02-2026 10:21:09,9.009s,PASSED
+product.Cart.addProductToCart(),,,,09-02-2026 10:21:09,09-02-2026 10:21:11,1.634s,PASSED
+"verifyElementExist(findTestObject(""Mobile/Android/Product/Actions/act_remove""), 15)",,,,09-02-2026 10:21:11,09-02-2026 10:21:12,0.847s,PASSED
+closeApplication(),,,,09-02-2026 10:21:12,09-02-2026 10:21:13,0.628s,PASSED
+,,,,,,,
+Test Cases/Product/PRD-TC-P002_Remove product from cart,,,,09-02-2026 10:21:13,09-02-2026 10:21:35,22.363s,PASSED
+username = userName,,,,09-02-2026 10:21:13,09-02-2026 10:21:13,0.003s,PASSED
+password = password,,,,09-02-2026 10:21:13,09-02-2026 10:21:13,0.001s,PASSED
+"startExistingApplication(appId, STOP_ON_FAILURE)",,,,09-02-2026 10:21:13,09-02-2026 10:21:21,8.645s,PASSED
+"auth.Auth.login(username, password)",,,,09-02-2026 10:21:21,09-02-2026 10:21:30,9.023s,PASSED
+product.Cart.addProductToCart(),,,,09-02-2026 10:21:30,09-02-2026 10:21:32,1.617s,PASSED
+product.Cart.removeProductFromCart(),,,,09-02-2026 10:21:32,09-02-2026 10:21:33,1.464s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Mobile/Android/Product/Actions/act_add_to_cart""), 15)",,,,09-02-2026 10:21:33,09-02-2026 10:21:34,0.862s,PASSED
+closeApplication(),,,,09-02-2026 10:21:34,09-02-2026 10:21:35,0.616s,PASSED
+,,,,,,,
+Test Cases/Checkout/CKT-TC-P001_Success checkout product,,,,09-02-2026 10:21:35,09-02-2026 10:22:17,42.321s,PASSED
+username = userName,,,,09-02-2026 10:21:35,09-02-2026 10:21:35,0.002s,PASSED
+password = password,,,,09-02-2026 10:21:35,09-02-2026 10:21:35,0.002s,PASSED
+firstname = firstName,,,,09-02-2026 10:21:35,09-02-2026 10:21:35,0.003s,PASSED
+lastname = lastName,,,,09-02-2026 10:21:35,09-02-2026 10:21:35,0.002s,PASSED
+postalcode = postalcode,,,,09-02-2026 10:21:35,09-02-2026 10:21:35,0.004s,PASSED
+"startExistingApplication(appId, STOP_ON_FAILURE)",,,,09-02-2026 10:21:35,09-02-2026 10:21:49,13.567s,PASSED
+"auth.Auth.login(username, password)",,,,09-02-2026 10:21:49,09-02-2026 10:21:58,9.120s,PASSED
+product.Cart.addProductToCart(),,,,09-02-2026 10:21:58,09-02-2026 10:21:59,1.617s,PASSED
+product.Cart.openCart(),,,,09-02-2026 10:21:59,09-02-2026 10:22:01,1.715s,PASSED
+checkout.Checkout.startCheckout(),,,,09-02-2026 10:22:01,09-02-2026 10:22:02,1.250s,PASSED
+"checkout.Checkout.fillInfromationAndContinueCheckout(firstname, lastname, postalcode)",,,,09-02-2026 10:22:02,09-02-2026 10:22:13,11.083s,PASSED
+checkout.Checkout.finishCheckout(),,,,09-02-2026 10:22:13,09-02-2026 10:22:15,1.368s,PASSED
+"waitForElementPresent(findTestObject(""Mobile/Android/Checkout/Images/img_success_transaction""), 15)",,,,09-02-2026 10:22:15,09-02-2026 10:22:15,0.395s,PASSED
+"verifyElementText(findTestObject(""Mobile/Android/Checkout/Texts/txt_checkout_complete""), ""CHECKOUT: COMPLETE!"")",,,,09-02-2026 10:22:15,09-02-2026 10:22:16,0.864s,PASSED
+"verifyElementText(findTestObject(""Mobile/Android/Checkout/Texts/txt_title_success_transaction""), ""THANK YOU FOR YOU ORDER"")",,,,09-02-2026 10:22:16,09-02-2026 10:22:16,0.314s,PASSED
+"verifyElementText(findTestObject(""Mobile/Android/Checkout/Texts/txt_desc_success_transaction""), ""Your order has been dispatched, and will arrive just as fast as the pony can get there!"")",,,,09-02-2026 10:22:16,09-02-2026 10:22:17,0.335s,PASSED
+closeApplication(),,,,09-02-2026 10:22:17,09-02-2026 10:22:17,0.528s,PASSED
+,,,,,,,
+Test Cases/Authentication/AUT-TC-P002_Success logout,,,,09-02-2026 10:22:17,09-02-2026 10:22:44,26.870s,PASSED
+validUserName = userName,,,,09-02-2026 10:22:17,09-02-2026 10:22:17,0.001s,PASSED
+validPassword = password,,,,09-02-2026 10:22:17,09-02-2026 10:22:17,0.001s,PASSED
+startExistingApplication(appId),,,,09-02-2026 10:22:17,09-02-2026 10:22:29,11.186s,PASSED
+"auth.Auth.login(validUserName, validPassword)",,,,09-02-2026 10:22:29,09-02-2026 10:22:38,9.202s,PASSED
+auth.Logout.logout(),,,,09-02-2026 10:22:38,09-02-2026 10:22:41,3.700s,PASSED
+"waitForElementPresent(findTestObject(""Mobile/Android/Authentication/Login/Texts/txt_login""), 15)",,,,09-02-2026 10:22:41,09-02-2026 10:22:43,1.910s,PASSED
+"verifyElementText(findTestObject(""Mobile/Android/Authentication/Login/Texts/txt_login""), ""LOGIN"")",,,,09-02-2026 10:22:43,09-02-2026 10:22:44,0.308s,PASSED
+closeApplication(),,,,09-02-2026 10:22:44,09-02-2026 10:22:44,0.444s,PASSED
+,,,,,,,
+Test Cases/Authentication/AUT-TC-N001_Failed login with locked credential,,,,09-02-2026 10:22:44,09-02-2026 10:23:06,22.304s,PASSED
+lockedUserName = lockedOutUserName,,,,09-02-2026 10:22:44,09-02-2026 10:22:44,0.001s,PASSED
+password = password,,,,09-02-2026 10:22:44,09-02-2026 10:22:44,0.001s,PASSED
+"startExistingApplication(appId, STOP_ON_FAILURE)",,,,09-02-2026 10:22:44,09-02-2026 10:22:56,11.307s,PASSED
+"auth.Auth.loginUseLockedCred(lockedUserName, password)",,,,09-02-2026 10:22:56,09-02-2026 10:23:05,9.457s,PASSED
+"verifyElementText(findTestObject(""Mobile/Android/Authentication/Login/Texts/txt_locked_user""), ""Sorry, this user has been locked out."")",,,,09-02-2026 10:23:05,09-02-2026 10:23:06,0.896s,PASSED
+closeApplication(),,,,09-02-2026 10:23:06,09-02-2026 10:23:06,0.526s,PASSED

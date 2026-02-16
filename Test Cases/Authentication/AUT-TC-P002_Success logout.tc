@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AUT-TC-P002_Success logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>485f76b5-d833-4689-b468-f771d5d609bf</testCaseGuid>
+</TestCaseEntity>
