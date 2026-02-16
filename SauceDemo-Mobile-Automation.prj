@@ -9,9 +9,15 @@
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
+<<<<<<< HEAD
    <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>D:\sauceDemo-mobile-automation-main\sauceDemo-mobile-automation-main\SauceDemo-Mobile-Automation\SauceDemo-Mobile-Automation.prj</projectFileLocation>
+=======
+   <modifiedVersion>10.4.2</modifiedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\User\Katalon Studio\SauceDemo-Mobile-Automation\SauceDemo-Mobile-Automation.prj</projectFileLocation>
+>>>>>>> 5405089f9fc54164d8acfe799f4b112ca4d17f38
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -13,6 +13,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
+=======
+      <initValue>'1234Abcd'</initValue>
+      <name>invalidPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+>>>>>>> 5405089f9fc54164d8acfe799f4b112ca4d17f38
       <initValue>'locked_out_user'</initValue>
       <name>lockedOutUserName</name>
       <protected>false</protected>
@@ -32,6 +42,7 @@
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
+<<<<<<< HEAD
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Agus'</initValue>
@@ -53,4 +64,6 @@
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
+=======
+>>>>>>> 5405089f9fc54164d8acfe799f4b112ca4d17f38
 </GlobalVariableEntities>
