@@ -1,6 +1,40 @@
-/bin/
-/Libs/
-/.settings/
-/.classpath
-.svn/
+# =========================
+# Build & Generated Files
+# =========================
+.gradle/
+bin/
+build/
+Libs/
+Drivers/
+output/
+
+# Keep output folder structure (optional)
+!output/.gitkeep
+
+# =========================
+# Execution Results
+# =========================
+Reports/
+Report/
+Test Reports/
+JUnit_Report.xml
+
+# =========================
+# Eclipse / Katalon Local Settings
+# =========================
+.classpath
+.project
+.settings/
+.metadata/
 .cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db

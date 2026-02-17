@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>PRD-TC-P002_Remove product from cart</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d0a80cc3-1743-4cd0-ab04-a95fc76c99f8</testCaseGuid>
-</TestCaseEntity>

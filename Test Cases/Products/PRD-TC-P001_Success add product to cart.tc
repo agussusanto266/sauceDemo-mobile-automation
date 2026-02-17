@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CKT-TC-P001_Success checkout product</name>
+   <name>PRD-TC-P001_Success add product to cart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>1a25971c-4092-481b-9c6f-b3e23ea7a3be</testCaseGuid>
+   <testCaseGuid>2fcf46ec-67a9-4784-98b3-a20eaea78dd8</testCaseGuid>
 </TestCaseEntity>

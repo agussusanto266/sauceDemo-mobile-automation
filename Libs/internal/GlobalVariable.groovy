@@ -10,19 +10,19 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile development : Appication ID</p>
+     * <p></p>
      */
     public static Object appId
      
     /**
      * <p></p>
      */
-    public static Object invalidPassword
+    public static Object firstName
      
     /**
      * <p></p>
      */
-    public static Object lockedOutUserName
+    public static Object lastName
      
     /**
      * <p></p>
@@ -32,7 +32,22 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object postalCode
+     
+    /**
+     * <p></p>
+     */
+    public static Object std_timeout
+     
+    /**
+     * <p></p>
+     */
     public static Object userName
+     
+    /**
+     * <p></p>
+     */
+    public static Object lockedUser
      
 
     static {
@@ -41,10 +56,13 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
     
             appId = selectedVariables['appId']
-            invalidPassword = selectedVariables['invalidPassword']
-            lockedOutUserName = selectedVariables['lockedOutUserName']
+            firstName = selectedVariables['firstName']
+            lastName = selectedVariables['lastName']
             password = selectedVariables['password']
+            postalCode = selectedVariables['postalCode']
+            std_timeout = selectedVariables['std_timeout']
             userName = selectedVariables['userName']
+            lockedUser = selectedVariables['lockedUser']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

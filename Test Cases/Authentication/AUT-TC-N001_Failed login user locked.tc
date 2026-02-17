@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CKT-TC-P001_Success checkout product</name>
+   <name>AUT-TC-N001_Failed login user locked</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>1a25971c-4092-481b-9c6f-b3e23ea7a3be</testCaseGuid>
+   <testCaseGuid>7ef22f19-643a-45c6-ad1c-f77f7b1c1691</testCaseGuid>
 </TestCaseEntity>
