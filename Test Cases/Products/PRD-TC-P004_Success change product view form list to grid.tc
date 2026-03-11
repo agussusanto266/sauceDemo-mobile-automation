@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PRD-TC-P004_Success change product view form list to grid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>601b5803-4678-41c8-b01b-3e76f8539ab8</testCaseGuid>
+</TestCaseEntity>

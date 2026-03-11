@@ -82,6 +82,21 @@ def static "screens.DashboardScreen.tapBtnCart"() {
 }
 
 
+def static "screens.DashboardScreen.tapBtnListView"() {
+    (new screens.DashboardScreen()).tapBtnListView()
+}
+
+
+def static "flows.ChangeViewProductsFlow.changeViewProductToBeList"() {
+    (new flows.ChangeViewProductsFlow()).changeViewProductToBeList()
+}
+
+
+def static "flows.ChangeViewProductsFlow.changeViewProductToBeGrid"() {
+    (new flows.ChangeViewProductsFlow()).changeViewProductToBeGrid()
+}
+
+
 def static "screens.CheckoutCompleteScreen.tapBtnBackHome"() {
     (new screens.CheckoutCompleteScreen()).tapBtnBackHome()
 }
