@@ -55,4 +55,11 @@ public class DashboardScreen {
 		Mobile.verifyElementVisible(findTestObject('Mobile/Android/Pages/DashboardPages/btnListView'), 15)
 		Mobile.tap(findTestObject('Mobile/Android/Pages/DashboardPages/btnListView'), 15)
 	}
+	
+	@Keyword
+	def tapProduct() {
+		Mobile.waitForElementPresent(findTestObject('Mobile/Android/Pages/DashboardPages/imgProduct'), 15)
+		Mobile.verifyElementVisible(findTestObject('Mobile/Android/Pages/DashboardPages/imgProduct'), 15)
+		Mobile.tap(findTestObject('Mobile/Android/Pages/DashboardPages/imgProduct'), 15)
+	}
 }

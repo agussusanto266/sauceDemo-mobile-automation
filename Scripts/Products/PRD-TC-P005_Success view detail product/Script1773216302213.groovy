@@ -25,11 +25,8 @@ Number std_timeout	= GlobalVariable.std_timeout
 Mobile.startExistingApplication(appId)
 CustomKeywords.'flows.LoginFlow.login'(userName, password)
 
-// Change product view to be list 
-CustomKeywords.'flows.ChangeViewProductsFlow.changeViewProductToBeList'()
-
-// Chaneg again be grid view
-CustomKeywords.'flows.ChangeViewProductsFlow.changeViewProductToBeGrid'()
+// View product
+CustomKeywords.'flows.ViewProductFlow.viewProduct'()
 
 // Exit app
 Mobile.closeApplication()

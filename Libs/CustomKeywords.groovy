@@ -53,6 +53,11 @@ def static "screens.YourCartScreen.tapBtnCheckout"() {
 }
 
 
+def static "flows.ViewProductFlow.viewProduct"() {
+    (new flows.ViewProductFlow()).viewProduct()
+}
+
+
 def static "flows.LoginFlow.login"(
     	String userName	
      , 	String password	) {
@@ -84,6 +89,11 @@ def static "screens.DashboardScreen.tapBtnCart"() {
 
 def static "screens.DashboardScreen.tapBtnListView"() {
     (new screens.DashboardScreen()).tapBtnListView()
+}
+
+
+def static "screens.DashboardScreen.tapProduct"() {
+    (new screens.DashboardScreen()).tapProduct()
 }
 
 
